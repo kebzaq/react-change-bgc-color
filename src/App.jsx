@@ -40,10 +40,10 @@ function App() {
       <button>Background colors: {colors.toString()}</button>
       <div className="container" style={{ backgroundColor: colors[curIndex] }}>
         <button className="bgcColor" onClick={changeColor}>
-          Change Color
+          Random Color
         </button>
-        <button onClick={decrement}>Prev color</button>
-        <button onClick={increment}>Next color</button>
+        <button onClick={decrement}>Prev Color</button>
+        <button onClick={increment}>Next Color</button>
       </div>
     </>
   );
